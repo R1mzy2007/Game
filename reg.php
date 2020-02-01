@@ -5,7 +5,7 @@ session_start();
 require 'vendor/autoload.php';
 require 'connection.php';
 
-$app = new \atk4\ui\App('Artur');
+$app = new \atk4\ui\App('$R1mzy$');
 $app->initLayout('Centered');
 
 $form = $app->layout->add('Form');
