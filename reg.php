@@ -9,7 +9,7 @@ $app = new \atk4\ui\App('$R1mzy$');
 $app->initLayout('Centered');
 
 $form = $app->layout->add('Form');
-$form->setModel(new User($db));
+$form->setModel(new User($db),['name','surname','email','password','nickname']);
 $form->buttonSave->set("Создать аккаунт");
 $model = new User($db);
 
